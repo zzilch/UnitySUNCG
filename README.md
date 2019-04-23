@@ -27,7 +27,7 @@ UnitySUNCG
 
 ### Usage
 1. Download SUNCG dataset
-2. Set `$Config.SUNCG_HOME$` as path to SUNCG
+2. Set `Config.SUNCG_HOME` as path to SUNCG
 
 #### Load a whole house  
 See scene SampleHouse in UnityEditor
