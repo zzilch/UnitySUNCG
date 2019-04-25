@@ -4,7 +4,7 @@ A simple SUNCG viewer and physics simulator based on Unity, tested in Unity 2018
 ### Dependency
 - [Runtime OBJ Importer](https://assetstore.unity.com/packages/tools/modeling/runtime-obj-importer-49547): runtime obj model reader, free
 #### Optional
- - [NonConvexMeshCollider](https://assetstore.unity.com/packages/tools/physics/non-convex-mesh-collider-84867): get better colliders but spend more time, paid
+ - [NonConvexMeshCollider](https://assetstore.unity.com/packages/tools/physics/non-convex-mesh-collider-84867): get better colliders for a whole pose object but spend more time, paid
 
 ### File Organization
 ```shell

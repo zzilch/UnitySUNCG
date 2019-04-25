@@ -65,7 +65,11 @@ namespace UnitySUNCG
             {
                 if (Array.IndexOf(Config.POSE_IDS, modelId) > -1)
                 {
-                    var collider = obj.AddComponent<BoxCollider>();
+                    // Use MeshCollider when we have part pose models
+                    var collider = obj.AddComponent<MeshCollider>();
+                    collider.convex = true;
+
+                    // var collider = obj.AddComponent<BoxCollider>();
 
                     // use NonConvexMeshCollider (can access in the asset store) 
                     // to get more accurate collider for the whole pose
